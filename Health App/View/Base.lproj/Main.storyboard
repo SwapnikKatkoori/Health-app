@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="904.79999999999995" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Aud-yJ-JVn">
             <objects>
-                <viewController id="9dt-jE-cbB" sceneMemberID="viewController">
+                <viewController id="9dt-jE-cbB" customClass="HomeViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uQk-l5-d2a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10850137222737E700F44CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10850136222737E700F44CAF /* RegisterViewController.swift */; };
+		1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085013822273D0200F44CAF /* HomeViewController.swift */; };
 		10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319822259CF50002F2D2 /* AppDelegate.swift */; };
 		10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319A22259CF50002F2D2 /* ViewController.swift */; };
 		10E7319E22259CF50002F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E7319C22259CF50002F2D2 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		10850136222737E700F44CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1085013922273D0200F44CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/HomeViewController.swift; sourceTree = "<group>"; };
 		10E7319522259CF50002F2D2 /* Health App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E7319822259CF50002F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E7319A22259CF50002F2D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1085013B22273D0900F44CAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10E7319A22259CF50002F2D2 /* ViewController.swift */,
+				10850136222737E700F44CAF /* RegisterViewController.swift */,
+				1085013822273D0200F44CAF /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1085013C22273DB000F44CAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10E7319C22259CF50002F2D2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10E7318C22259CF50002F2D2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +76,12 @@
 		10E7319722259CF50002F2D2 /* Health App */ = {
 			isa = PBXGroup;
 			children = (
+				1085013C22273DB000F44CAF /* View */,
+				1085013B22273D0900F44CAF /* Controller */,
 				10E7319822259CF50002F2D2 /* AppDelegate.swift */,
-				10E7319A22259CF50002F2D2 /* ViewController.swift */,
-				10E7319C22259CF50002F2D2 /* Main.storyboard */,
 				10E7319F22259CF60002F2D2 /* Assets.xcassets */,
 				10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */,
 				10E731A422259CF60002F2D2 /* Info.plist */,
-				10850136222737E700F44CAF /* RegisterViewController.swift */,
 			);
 			path = "Health App";
 			sourceTree = "<group>";
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10850137222737E700F44CAF /* RegisterViewController.swift in Sources */,
+				1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */,
 				10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */,
 				10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */,
 			);
@@ -147,6 +167,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1085013822273D0200F44CAF /* HomeViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1085013922273D0200F44CAF /* Base */,
+			);
+			name = HomeViewController.swift;
+			sourceTree = "<group>";
+		};
 		10E7319C22259CF50002F2D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
