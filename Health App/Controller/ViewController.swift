@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    }
     //Should segue to the Register Page
     @IBAction func registerButton(_ sender: UIButton) {
         print("register pressed")
