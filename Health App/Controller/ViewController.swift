@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     //To do: Need to create authentication system with FireBase
     @IBAction func signInButton(_ sender: UIButton) {
-        print("pressed")
+        print("Sign In pressed")
         performSegue(withIdentifier: "signIn", sender:self)
         
         
