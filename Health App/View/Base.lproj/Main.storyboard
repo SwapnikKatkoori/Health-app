@@ -86,7 +86,7 @@
         <scene sceneID="mkU-qc-Ogk">
             <objects>
                 <tabBarController id="qOU-VO-wDs" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vqV-3d-7cn">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="vqV-3d-7cn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="1340" y="470"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="PKq-Uf-bmO">
             <objects>
                 <viewController id="F5F-XL-38Y" sceneMemberID="viewController">
@@ -110,13 +110,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VaW-jk-A8N"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="R73-IT-YKg"/>
+                    <tabBarItem key="tabBarItem" title="" image="icons8-meditation-filled-40" id="R73-IT-YKg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8cC-qn-aWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2197" y="841"/>
         </scene>
-        <!--Item-->
+        <!--Home View Controller-->
         <scene sceneID="Aud-yJ-JVn">
             <objects>
                 <viewController id="9dt-jE-cbB" customClass="HomeViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -126,7 +126,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CKf-bT-dLG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="dT2-4Q-3AT"/>
+                    <tabBarItem key="tabBarItem" image="icons8-home-40" id="dT2-4Q-3AT"/>
                     <navigationItem key="navigationItem" id="JPE-ct-PHi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNE-qD-lGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -162,4 +162,8 @@
             <point key="canvasLocation" x="369" y="812"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-home-40" width="40" height="40"/>
+        <image name="icons8-meditation-filled-40" width="40" height="40"/>
+    </resources>
 </document>
