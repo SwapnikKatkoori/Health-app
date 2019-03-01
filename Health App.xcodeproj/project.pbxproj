@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD32229DE9F00395823 /* CalorieViewController.swift */; };
 		10850137222737E700F44CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10850136222737E700F44CAF /* RegisterViewController.swift */; };
 		1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085013822273D0200F44CAF /* HomeViewController.swift */; };
 		10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319822259CF50002F2D2 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106BABD32229DE9F00395823 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
 		10850136222737E700F44CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1085013922273D0200F44CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/HomeViewController.swift; sourceTree = "<group>"; };
 		10E7319522259CF50002F2D2 /* Health App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,7 @@
 				10E7319A22259CF50002F2D2 /* ViewController.swift */,
 				10850136222737E700F44CAF /* RegisterViewController.swift */,
 				1085013822273D0200F44CAF /* HomeViewController.swift */,
+				106BABD32229DE9F00395823 /* CalorieViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */,
 				10850137222737E700F44CAF /* RegisterViewController.swift in Sources */,
 				1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */,
 				10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */,
@@ -315,14 +319,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3MYWH7TU57;
+				DEVELOPMENT_TEAM = 944T5L3W82;
 				INFOPLIST_FILE = "Health App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sriprahadeeswaran.Health-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnikkatkoori.Health-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,14 +338,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3MYWH7TU57;
+				DEVELOPMENT_TEAM = 944T5L3W82;
 				INFOPLIST_FILE = "Health App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sriprahadeeswaran.Health-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnikkatkoori.Health-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
