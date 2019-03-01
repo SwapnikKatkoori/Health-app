@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD32229DE9F00395823 /* CalorieViewController.swift */; };
 		106BABD82229E32700395823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BABD72229E32700395823 /* Assets.xcassets */; };
+		106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD92229E62C00395823 /* MediatationViewController.swift */; };
+		106BABDC2229E9EA00395823 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABDB2229E9EA00395823 /* ExerciseViewController.swift */; };
 		10850137222737E700F44CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10850136222737E700F44CAF /* RegisterViewController.swift */; };
 		1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085013822273D0200F44CAF /* HomeViewController.swift */; };
 		10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319822259CF50002F2D2 /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		106BABD32229DE9F00395823 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
 		106BABD72229E32700395823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Health App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		106BABD92229E62C00395823 /* MediatationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatationViewController.swift; sourceTree = "<group>"; };
+		106BABDB2229E9EA00395823 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		10850136222737E700F44CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1085013922273D0200F44CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/HomeViewController.swift; sourceTree = "<group>"; };
 		10E7319522259CF50002F2D2 /* Health App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,11 +48,12 @@
 		1085013B22273D0900F44CAF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				106BABD72229E32700395823 /* Assets.xcassets */,
 				10E7319A22259CF50002F2D2 /* ViewController.swift */,
 				10850136222737E700F44CAF /* RegisterViewController.swift */,
 				1085013822273D0200F44CAF /* HomeViewController.swift */,
 				106BABD32229DE9F00395823 /* CalorieViewController.swift */,
+				106BABD92229E62C00395823 /* MediatationViewController.swift */,
+				106BABDB2229E9EA00395823 /* ExerciseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		10E7319722259CF50002F2D2 /* Health App */ = {
 			isa = PBXGroup;
 			children = (
+				106BABD72229E32700395823 /* Assets.xcassets */,
 				1085013C22273DB000F44CAF /* View */,
 				1085013B22273D0900F44CAF /* Controller */,
 				10E7319822259CF50002F2D2 /* AppDelegate.swift */,
@@ -161,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */,
+				106BABDC2229E9EA00395823 /* ExerciseViewController.swift in Sources */,
 				10850137222737E700F44CAF /* RegisterViewController.swift in Sources */,
+				106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */,
 				1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */,
 				10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */,
 				10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */,
