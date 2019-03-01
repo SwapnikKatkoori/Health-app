@@ -94,29 +94,63 @@
                     <connections>
                         <segue destination="9dt-jE-cbB" kind="relationship" relationship="viewControllers" id="85z-gP-5AP"/>
                         <segue destination="F5F-XL-38Y" kind="relationship" relationship="viewControllers" id="4hu-4d-yM5"/>
+                        <segue destination="HUT-ae-sjd" kind="relationship" relationship="viewControllers" id="Dk0-Ru-vs4"/>
+                        <segue destination="xaq-Yu-pld" kind="relationship" relationship="viewControllers" id="oug-BO-fvv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ti5-kv-5cQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1340" y="470"/>
         </scene>
-        <!--View Controller-->
+        <!--Diet-->
+        <scene sceneID="vEI-3r-vdh">
+            <objects>
+                <viewController id="xaq-Yu-pld" customClass="CalorieViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nSX-PI-AeQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rru-Tb-WG5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Diet" image="icons8-healthy-eating-filled-40" id="JMi-dU-Vxg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLx-EY-9P4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1559" y="1461"/>
+        </scene>
+        <!--Mediatation-->
         <scene sceneID="PKq-Uf-bmO">
             <objects>
-                <viewController id="F5F-XL-38Y" sceneMemberID="viewController">
+                <viewController id="F5F-XL-38Y" customClass="MeditationViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jhd-uA-yLo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VaW-jk-A8N"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="icons8-meditation-filled-40" id="R73-IT-YKg"/>
+                    <tabBarItem key="tabBarItem" title="Mediatation" image="icons8-meditation-filled-40" id="R73-IT-YKg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8cC-qn-aWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2197" y="841"/>
+            <point key="canvasLocation" x="2153" y="812"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Exercise-->
+        <scene sceneID="baJ-aj-aJx">
+            <objects>
+                <viewController id="HUT-ae-sjd" customClass="ExerciseViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N9R-en-8OJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Dz5-Y8-Cdh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Exercise" image="icons8-bench-press-filled-40" id="GZH-aL-djG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RRa-SC-fpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2127" y="-529"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="Aud-yJ-JVn">
             <objects>
                 <viewController id="9dt-jE-cbB" customClass="HomeViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -126,7 +160,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CKf-bT-dLG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="icons8-home-40" id="dT2-4Q-3AT"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-home-40" id="dT2-4Q-3AT"/>
                     <navigationItem key="navigationItem" id="JPE-ct-PHi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNE-qD-lGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -163,6 +197,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icons8-bench-press-filled-40" width="40" height="40"/>
+        <image name="icons8-healthy-eating-filled-40" width="40" height="40"/>
         <image name="icons8-home-40" width="40" height="40"/>
         <image name="icons8-meditation-filled-40" width="40" height="40"/>
     </resources>
