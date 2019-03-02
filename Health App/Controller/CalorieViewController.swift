@@ -10,13 +10,12 @@ import UIKit
 
 class CalorieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, FoodEnterDelegate{
     
-    var list1 = ["pizza", "calzone", "Pecans"]
+    var food_and_calorie_list = [FoodAndCaloriesCellData]()
     @IBOutlet weak var foodAndCalorieTable: UITableView!
     
     //When the add button is pressed
     @IBAction func addButtonPressed(_ sender: Any) {
-        list1.append("Fried chicken")
-        foodAndCalorieTable.reloadData()
+        
     }
     
     //When the camera button is pressed
@@ -38,19 +37,25 @@ class CalorieViewController: UIViewController, UITableViewDataSource, UITableVie
     //Table view data source methods
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "calorieCell", for: indexPath) as! TableViewCell
-        cell.calorieLabel.text = "500"
-        cell.foodNameLabel.text = list1[indexPath.row]
+        cell.calorieLabel.text = food_and_calorie_list[indexPath.row].calories
+        cell.foodNameLabel.text = food_and_calorie_list[indexPath.row].food
         return cell
     }
     
     //How many cells
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return list1.count
+        return food_and_calorie_list.count
     }
     
     //The required protocol function
     func userEnteredFoodAndCalories(food: String, calories: String) {
-        print(food)
+        let new_cell_data = FoodAndCaloriesCellData()
+        new_cell_data.food = food
+        new_cell_data.calories = calories
+        if (new_cell_data.food != "") && (new_cell_data.calories != ""){
+            food_and_calorie_list.append(new_cell_data)
+            foodAndCalorieTable.reloadData()
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
