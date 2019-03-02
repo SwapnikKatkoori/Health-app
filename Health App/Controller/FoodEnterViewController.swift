@@ -12,7 +12,7 @@ protocol FoodEnterDelegate {
     func userEnteredFoodAndCalories(food:String, calories: String)
 }
 
-class FoodEnterViewController: UIViewController {
+class FoodEnterViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var foodName: UITextField!
     @IBOutlet weak var numberOfCalories: UITextField!
@@ -20,10 +20,18 @@ class FoodEnterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        foodName.delegate = self
+        numberOfCalories.delegate = self
         // Do any additional setup after loading the view.
     }
     
+    //Hides the keyboard once the return button is pressed
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    //When the button is pressed, it sends the data back to the delegate
     @IBAction func sendButtonPressed(_ sender: Any) {
         
         guard let food = foodName.text, food != " " else{
