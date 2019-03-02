@@ -11,12 +11,15 @@
 		106BABD82229E32700395823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BABD72229E32700395823 /* Assets.xcassets */; };
 		106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD92229E62C00395823 /* MediatationViewController.swift */; };
 		106BABDC2229E9EA00395823 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABDB2229E9EA00395823 /* ExerciseViewController.swift */; };
+		106BABE0222A113300395823 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABDE222A113300395823 /* TableViewCell.swift */; };
+		106BABE1222A113300395823 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106BABDF222A113300395823 /* TableViewCell.xib */; };
 		10850137222737E700F44CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10850136222737E700F44CAF /* RegisterViewController.swift */; };
 		1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085013822273D0200F44CAF /* HomeViewController.swift */; };
 		10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319822259CF50002F2D2 /* AppDelegate.swift */; };
 		10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7319A22259CF50002F2D2 /* ViewController.swift */; };
 		10E7319E22259CF50002F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E7319C22259CF50002F2D2 /* Main.storyboard */; };
 		10E731A322259CF60002F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */; };
+		10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		106BABD72229E32700395823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Health App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		106BABD92229E62C00395823 /* MediatationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatationViewController.swift; sourceTree = "<group>"; };
 		106BABDB2229E9EA00395823 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		106BABDE222A113300395823 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		106BABDF222A113300395823 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		10850136222737E700F44CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1085013922273D0200F44CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/HomeViewController.swift; sourceTree = "<group>"; };
 		10E7319522259CF50002F2D2 /* Health App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +37,7 @@
 		10E7319D22259CF50002F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10E731A222259CF60002F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10E731A422259CF60002F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEnterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106BABDD222A025600395823 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				106BABDE222A113300395823 /* TableViewCell.swift */,
+				106BABDF222A113300395823 /* TableViewCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		1085013B22273D0900F44CAF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +69,7 @@
 				106BABD32229DE9F00395823 /* CalorieViewController.swift */,
 				106BABD92229E62C00395823 /* MediatationViewController.swift */,
 				106BABDB2229E9EA00395823 /* ExerciseViewController.swift */,
+				10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -61,7 +77,9 @@
 		1085013C22273DB000F44CAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				106BABDD222A025600395823 /* Custom Cell */,
 				10E7319C22259CF50002F2D2 /* Main.storyboard */,
+				10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,7 +107,6 @@
 				1085013C22273DB000F44CAF /* View */,
 				1085013B22273D0900F44CAF /* Controller */,
 				10E7319822259CF50002F2D2 /* AppDelegate.swift */,
-				10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */,
 				10E731A422259CF60002F2D2 /* Info.plist */,
 			);
 			path = "Health App";
@@ -154,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E731A322259CF60002F2D2 /* LaunchScreen.storyboard in Resources */,
+				106BABE1222A113300395823 /* TableViewCell.xib in Resources */,
 				106BABD82229E32700395823 /* Assets.xcassets in Resources */,
 				10E7319E22259CF50002F2D2 /* Main.storyboard in Resources */,
 			);
@@ -167,6 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */,
+				106BABE0222A113300395823 /* TableViewCell.swift in Sources */,
+				10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */,
 				106BABDC2229E9EA00395823 /* ExerciseViewController.swift in Sources */,
 				10850137222737E700F44CAF /* RegisterViewController.swift in Sources */,
 				106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */,
