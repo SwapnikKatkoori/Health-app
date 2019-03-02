@@ -245,7 +245,7 @@
             </objects>
             <point key="canvasLocation" x="205.59999999999999" y="1574.6626686656673"/>
         </scene>
-        <!--Item-->
+        <!--Diet-->
         <scene sceneID="OPi-8V-anz">
             <objects>
                 <viewController id="fVB-Xx-QR4" customClass="CalorieViewController" customModule="Health_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -291,7 +291,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DFE-7P-uzY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="icons8-healthy-eating-filled-40" id="MV0-CX-QFr"/>
+                    <tabBarItem key="tabBarItem" title="Diet" image="icons8-healthy-eating-filled-40" id="MV0-CX-QFr"/>
                     <connections>
                         <outlet property="foodAndCalorieTable" destination="mbK-mH-M3M" id="YnR-jq-qAG"/>
                     </connections>
