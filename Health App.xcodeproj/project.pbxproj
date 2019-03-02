@@ -20,6 +20,7 @@
 		10E7319E22259CF50002F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E7319C22259CF50002F2D2 /* Main.storyboard */; };
 		10E731A322259CF60002F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */; };
 		10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */; };
+		10ED372F222B2614009D4C32 /* FoodAndCaloriesCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		10E731A222259CF60002F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10E731A422259CF60002F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEnterViewController.swift; sourceTree = "<group>"; };
+		10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAndCaloriesCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 		1085013C22273DB000F44CAF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				106BABDD222A025600395823 /* Custom Cell */,
 				10E7319C22259CF50002F2D2 /* Main.storyboard */,
 				10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */,
 			);
@@ -103,6 +104,7 @@
 		10E7319722259CF50002F2D2 /* Health App */ = {
 			isa = PBXGroup;
 			children = (
+				10ED372D222B25B7009D4C32 /* Model */,
 				106BABD72229E32700395823 /* Assets.xcassets */,
 				1085013C22273DB000F44CAF /* View */,
 				1085013B22273D0900F44CAF /* Controller */,
@@ -110,6 +112,15 @@
 				10E731A422259CF60002F2D2 /* Info.plist */,
 			);
 			path = "Health App";
+			sourceTree = "<group>";
+		};
+		10ED372D222B25B7009D4C32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				106BABDD222A025600395823 /* Custom Cell */,
+				10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */,
 				10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */,
 				10E7319922259CF50002F2D2 /* AppDelegate.swift in Sources */,
+				10ED372F222B2614009D4C32 /* FoodAndCaloriesCellData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

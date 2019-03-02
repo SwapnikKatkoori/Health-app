@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//Protocol to allow the data entered in this view controller to be passed back to the CalorieViewController
 protocol FoodEnterDelegate {
     func userEnteredFoodAndCalories(food:String, calories: String)
 }
@@ -24,9 +25,15 @@ class FoodEnterViewController: UIViewController {
     }
     
     @IBAction func sendButtonPressed(_ sender: Any) {
-        let food = foodName.text!
-        let calories = numberOfCalories.text!
+        
+        guard let food = foodName.text, food != " " else{
+            return
+        }
+        guard let calories = numberOfCalories.text, calories != " " else{
+            return
+        }
         delegate?.userEnteredFoodAndCalories(food: food, calories: calories)
+        self.dismiss(animated: true, completion: nil)
     }
     
 
