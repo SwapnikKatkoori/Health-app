@@ -18,7 +18,6 @@ class CalorieViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //Set as the table view delegate
         foodAndCalorieTable.delegate = self
         foodAndCalorieTable.dataSource = self
@@ -26,6 +25,9 @@ class CalorieViewController: UIViewController, UITableViewDataSource, UITableVie
         
         //Register custom cell
         foodAndCalorieTable.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "calorieCell")
+        
+        let dc = DataCenter(food:"raspberry")
+        dc.getFoodInfo()
     }
     
     //When the add button is pressed
@@ -78,6 +80,7 @@ class CalorieViewController: UIViewController, UITableViewDataSource, UITableVie
         catch{
             print(error)
         }
+        
         
     }
     

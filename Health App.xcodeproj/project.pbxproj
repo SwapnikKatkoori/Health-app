@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		103E5964222DBEFC0001C906 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 103E5963222DBEFC0001C906 /* Inceptionv3.mlmodel */; };
+		103E5966222E08A80001C906 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E5965222E08A80001C906 /* DataCenter.swift */; };
 		106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD32229DE9F00395823 /* CalorieViewController.swift */; };
 		106BABD82229E32700395823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BABD72229E32700395823 /* Assets.xcassets */; };
 		106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD92229E62C00395823 /* MediatationViewController.swift */; };
@@ -22,10 +23,12 @@
 		10E731A322259CF60002F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E731A122259CF60002F2D2 /* LaunchScreen.storyboard */; };
 		10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */; };
 		10ED372F222B2614009D4C32 /* FoodAndCaloriesCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */; };
+		A80D002BA1B9F8074EB140F8 /* Pods_Health_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD4D271B7E47B873281A7CC /* Pods_Health_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		103E5963222DBEFC0001C906 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		103E5965222E08A80001C906 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		106BABD32229DE9F00395823 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
 		106BABD72229E32700395823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Health App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		106BABD92229E62C00395823 /* MediatationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatationViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		10E731A422259CF60002F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10ED372B222B131F009D4C32 /* FoodEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEnterViewController.swift; sourceTree = "<group>"; };
 		10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAndCaloriesCellData.swift; sourceTree = "<group>"; };
+		3FD4D271B7E47B873281A7CC /* Pods_Health_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4125717936254BE94DCBCFE /* Pods-Health App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Health App/Pods-Health App.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AC19AC0B06095DB88B3DA2 /* Pods-Health App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Health App/Pods-Health App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80D002BA1B9F8074EB140F8 /* Pods_Health_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +99,8 @@
 			children = (
 				10E7319722259CF50002F2D2 /* Health App */,
 				10E7319622259CF50002F2D2 /* Products */,
+				349C2CEF86C52BBD42A3CD89 /* Pods */,
+				6B38697A30757DE6AA049CD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,8 +131,26 @@
 			children = (
 				106BABDD222A025600395823 /* Custom Cell */,
 				10ED372E222B2614009D4C32 /* FoodAndCaloriesCellData.swift */,
+				103E5965222E08A80001C906 /* DataCenter.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		349C2CEF86C52BBD42A3CD89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4125717936254BE94DCBCFE /* Pods-Health App.debug.xcconfig */,
+				E5AC19AC0B06095DB88B3DA2 /* Pods-Health App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B38697A30757DE6AA049CD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD4D271B7E47B873281A7CC /* Pods_Health_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E731A722259CF60002F2D2 /* Build configuration list for PBXNativeTarget "Health App" */;
 			buildPhases = (
+				73C9820D1D8BFFA3BE585513 /* [CP] Check Pods Manifest.lock */,
 				10E7319122259CF50002F2D2 /* Sources */,
 				10E7319222259CF50002F2D2 /* Frameworks */,
 				10E7319322259CF50002F2D2 /* Resources */,
+				AC9CEE0C525FAD97D07A74D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +222,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73C9820D1D8BFFA3BE585513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9CEE0C525FAD97D07A74D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Health App/Pods-Health App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Health App/Pods-Health App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10E7319122259CF50002F2D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,6 +280,7 @@
 				10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */,
 				106BABDC2229E9EA00395823 /* ExerciseViewController.swift in Sources */,
 				10850137222737E700F44CAF /* RegisterViewController.swift in Sources */,
+				103E5966222E08A80001C906 /* DataCenter.swift in Sources */,
 				106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */,
 				1085013A22273D0200F44CAF /* HomeViewController.swift in Sources */,
 				10E7319B22259CF50002F2D2 /* ViewController.swift in Sources */,
@@ -360,6 +437,7 @@
 		};
 		10E731A822259CF60002F2D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4125717936254BE94DCBCFE /* Pods-Health App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +457,7 @@
 		};
 		10E731A922259CF60002F2D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC19AC0B06095DB88B3DA2 /* Pods-Health App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
