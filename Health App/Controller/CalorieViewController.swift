@@ -69,7 +69,13 @@ class CalorieViewController: UIViewController, UITableViewDataSource, UITableVie
             }
             
             if let firstResult = result.first{
-                print(firstResult)
+               
+                print(firstResult.identifier)
+                let newCell = FoodAndCaloriesCellData()
+                newCell.food = firstResult.identifier
+                self.food_and_calorie_list.append(newCell)
+                self.foodAndCalorieTable.reloadData()
+                
             }
         }
         
