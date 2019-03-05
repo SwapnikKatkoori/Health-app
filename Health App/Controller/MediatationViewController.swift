@@ -16,7 +16,7 @@ class MeditationViewController: UIViewController{
     var time = 0
     
     //timer
-    var timer = Timer( )
+    var timer = Timer()
     
     
     @IBAction func Start(_ sender: UIButton)
@@ -32,12 +32,12 @@ class MeditationViewController: UIViewController{
     {
         //timer.invalidate()
         time = 0
-        label.text = ("0")
+        Label.text = ("0")
     }
-    func action()
+    @objc func action()
     {
         time += 1
-        label.text = string(time)
+        Label.text = String(time)
     }
     
     override func viewDidLoad() {
