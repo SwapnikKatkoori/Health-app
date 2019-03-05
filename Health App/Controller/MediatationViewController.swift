@@ -13,10 +13,10 @@ class MeditationViewController: UIViewController{
     
     @IBOutlet weak var Label: UILabel!
     
-    var time = 0
+    var time = 20
     
     //timer
-    var timer = Timer( )
+    var timer = Timer()
     
     
     @IBAction func Start(_ sender: UIButton)
@@ -31,13 +31,13 @@ class MeditationViewController: UIViewController{
     @IBAction func Reset(_ sender: UIButton)
     {
         //timer.invalidate()
-        time = 0
-        label.text = ("0")
+        time = 20
+        Label.text = ("0")
     }
-    func action()
+    @objc func action()
     {
-        time += 1
-        label.text = string(time)
+        time -= 1
+        Label.text = String(time)
     }
     
     override func viewDidLoad() {
