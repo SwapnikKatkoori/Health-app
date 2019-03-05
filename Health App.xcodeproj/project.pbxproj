@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103E5964222DBEFC0001C906 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 103E5963222DBEFC0001C906 /* Inceptionv3.mlmodel */; };
 		106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD32229DE9F00395823 /* CalorieViewController.swift */; };
 		106BABD82229E32700395823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BABD72229E32700395823 /* Assets.xcassets */; };
 		106BABDA2229E62C00395823 /* MediatationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BABD92229E62C00395823 /* MediatationViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103E5963222DBEFC0001C906 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		106BABD32229DE9F00395823 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
 		106BABD72229E32700395823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Health App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		106BABD92229E62C00395823 /* MediatationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatationViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		10E7319722259CF50002F2D2 /* Health App */ = {
 			isa = PBXGroup;
 			children = (
+				103E5963222DBEFC0001C906 /* Inceptionv3.mlmodel */,
 				10ED372D222B25B7009D4C32 /* Model */,
 				106BABD72229E32700395823 /* Assets.xcassets */,
 				1085013C22273DB000F44CAF /* View */,
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103E5964222DBEFC0001C906 /* Inceptionv3.mlmodel in Sources */,
 				106BABD42229DE9F00395823 /* CalorieViewController.swift in Sources */,
 				106BABE0222A113300395823 /* TableViewCell.swift in Sources */,
 				10ED372C222B131F009D4C32 /* FoodEnterViewController.swift in Sources */,
